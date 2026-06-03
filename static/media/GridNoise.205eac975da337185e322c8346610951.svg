@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="100" height="100" viewBox="0 0 1000 1000">
+
+  <defs>
+    <!-- Large straight grid -->
+    <pattern id="largeGrid" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="white"/>
+      <rect x="0" width="4" height="100" fill="black"/>
+      <rect y="0" width="100" height="4" fill="black"/>
+    </pattern>
+
+    <!-- circular clipping mask -->
+    <clipPath id="circleClip">
+      <circle cx="500" cy="500" r="360"/>
+    </clipPath>
+  </defs>
+
+  <!-- Circle filled with perfectly straight grid -->
+  <circle cx="500" cy="500" r="360"
+          fill="url(#largeGrid)"
+          clip-path="url(#circleClip)"/>
+
+</svg>

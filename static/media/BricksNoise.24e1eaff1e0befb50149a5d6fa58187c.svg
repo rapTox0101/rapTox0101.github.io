@@ -1,0 +1,16 @@
+<svg width="90" height="90" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Define larger rectangular brick pattern with inverted colors -->
+    <pattern id="brickPattern" x="0" y="0" width="120" height="60" patternUnits="userSpaceOnUse">
+      <!-- Top row bricks -->
+      <rect x="0" y="0" width="60" height="30" fill="white" stroke="black" stroke-width="2"/>
+      <rect x="60" y="0" width="60" height="30" fill="white" stroke="black" stroke-width="2"/>
+      <!-- Bottom row bricks (offset for brick pattern) -->
+      <rect x="0" y="30" width="60" height="30" fill="white" stroke="black" stroke-width="2"/>
+      <rect x="60" y="30" width="60" height="30" fill="white" stroke="black" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <!-- Circle filled with inverted brick pattern -->
+  <circle cx="150" cy="150" r="140" fill="url(#brickPattern)" stroke="black" stroke-width="2"/>
+</svg>

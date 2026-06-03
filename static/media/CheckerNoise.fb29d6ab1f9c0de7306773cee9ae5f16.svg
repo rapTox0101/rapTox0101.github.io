@@ -1,0 +1,16 @@
+<svg width="90" height="90" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Define rectangular brick pattern -->
+    <pattern id="checkerPattern" x="0" y="0" width="60" height="30" patternUnits="userSpaceOnUse">
+      <!-- Top row bricks -->
+      <rect x="0" y="0" width="30" height="15" fill="black"/>
+      <rect x="30" y="0" width="30" height="15" fill="white"/>
+      <!-- Bottom row bricks (offset for brick pattern) -->
+      <rect x="0" y="15" width="30" height="15" fill="white"/>
+      <rect x="30" y="15" width="30" height="15" fill="black"/>
+    </pattern>
+  </defs>
+
+  <!-- Circle filled with rectangular brick pattern -->
+  <circle cx="150" cy="150" r="140" fill="url(#checkerPattern)" stroke="black" stroke-width="2"/>
+</svg>

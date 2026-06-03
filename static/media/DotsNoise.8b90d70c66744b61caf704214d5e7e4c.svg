@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 600 600">
+  <defs>
+    <!-- Larger black dot pattern -->
+    <pattern id="dots" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <rect width="50" height="50" fill="white"/>
+      <circle cx="15" cy="15" r="10" fill="#000"/>
+      <circle cx="35" cy="35" r="10" fill="#000"/>
+    </pattern>
+
+    <!-- Larger white dot overlay -->
+    <pattern id="dots-white" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <rect width="50" height="50" fill="transparent"/>
+      <circle cx="35" cy="15" r="10" fill="#fff"/>
+      <circle cx="15" cy="35" r="10" fill="#fff"/>
+    </pattern>
+
+    <!-- Light shading -->
+    <radialGradient id="light" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="white" stop-opacity="1"/>
+      <stop offset="55%" stop-color="white" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="black" stop-opacity="0.2"/>
+    </radialGradient>
+
+    <!-- Darken edges -->
+    <radialGradient id="vignette" cx="50%" cy="45%" r="75%">
+      <stop offset="60%" stop-color="black" stop-opacity="0"/>
+      <stop offset="100%" stop-color="black" stop-opacity="0.45"/>
+    </radialGradient>
+
+    <!-- Highlight -->
+    <radialGradient id="spec" cx="30%" cy="25%" r="12%">
+      <stop offset="0%" stop-color="white" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+
+    <mask id="shadeMask">
+      <rect x="0" y="0" width="600" height="600" fill="black"/>
+      <circle cx="300" cy="300" r="240" fill="url(#light)"/>
+    </mask>
+
+    <filter id="drop" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#eee" opacity="0"/>
+  <ellipse cx="300" cy="460" rx="170" ry="34" fill="#000" opacity="0.15"/>
+
+  <g filter="url(#drop)">
+    <circle cx="300" cy="300" r="240" fill="url(#dots)"/>
+    <circle cx="300" cy="300" r="240" fill="url(#dots-white)" style="mix-blend-mode:screen;"/>
+    <circle cx="300" cy="300" r="240" fill="url(#vignette)" opacity="0.6" style="mix-blend-mode:multiply"/>
+    <circle cx="230" cy="200" r="72" fill="url(#spec)" opacity="0.9"/>
+    <g mask="url(#shadeMask)">
+      <circle cx="300" cy="300" r="240" fill="url(#dots)"/>
+      <circle cx="300" cy="300" r="240" fill="url(#dots-white)" style="mix-blend-mode:screen;"/>
+    </g>
+    <circle cx="300" cy="300" r="240" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="2"/>
+  </g>
+</svg>

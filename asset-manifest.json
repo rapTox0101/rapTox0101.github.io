@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4b6b998b.css",
+    "main.js": "/static/js/main.38eec408.js",
+    "static/media/GaborNoise.svg": "/static/media/GaborNoise.e60ccb0e61a4b838ddb4aa0544d72853.svg",
+    "static/media/DotsNoise.svg": "/static/media/DotsNoise.8b90d70c66744b61caf704214d5e7e4c.svg",
+    "static/media/LigthBulb.svg": "/static/media/LigthBulb.dea5eacbc2157f654e4761309128ef45.svg",
+    "static/media/Mesh.svg": "/static/media/Mesh.2d21ebe07a6e698854e0b5af67504860.svg",
+    "static/media/Settings.svg": "/static/media/Settings.1fadf36bd30f076001b68dcf6157342f.svg",
+    "static/media/BaseColorMod.svg": "/static/media/BaseColorMod.1354ff08a8a5104e7048ee7c6477cdb1.svg",
+    "static/media/WhiteNoiseBlocky.svg": "/static/media/WhiteNoiseBlocky.4d7e439fd355ada9770cf4852997e865.svg",
+    "static/media/WhiteNoise.svg": "/static/media/WhiteNoise.bc7af30f3a74e94ae43b1023fecc5dd4.svg",
+    "static/media/Upload.svg": "/static/media/Upload.78545f6ee747e5108203cff62c9fd45c.svg",
+    "static/media/BricksNoise.svg": "/static/media/BricksNoise.24e1eaff1e0befb50149a5d6fa58187c.svg",
+    "static/media/Download.svg": "/static/media/Download.2304876a4b30195e17a48bd581da1384.svg",
+    "static/media/ArrowBack.svg": "/static/media/ArrowBack.5e1abfbf70b648a29d7a260a60305b4b.svg",
+    "static/media/CheckerNoise.svg": "/static/media/CheckerNoise.fb29d6ab1f9c0de7306773cee9ae5f16.svg",
+    "static/media/GridNoise.svg": "/static/media/GridNoise.205eac975da337185e322c8346610951.svg",
+    "static/media/BlendMod.svg": "/static/media/BlendMod.2b0aa20c8d0e2973a0d0d1f11fa1422b.svg",
+    "static/media/GaborNoise2.svg": "/static/media/GaborNoise2.9d6707e90acc69bacf555465ccb195a3.svg",
+    "static/media/PerlinNoise1.svg": "/static/media/PerlinNoise1.df93d29dc7267850d2a2a9f9a2e81079.svg",
+    "static/media/PerlinNoise2.svg": "/static/media/PerlinNoise2.42e25d1eb7cd1ccbcaf3a99a6fec2abc.svg",
+    "static/media/PerlinNoise3.svg": "/static/media/PerlinNoise3.78cc2d6a213dc188d286eb3dc55e8720.svg",
+    "static/media/PerlinNoise4.svg": "/static/media/PerlinNoise4.502b869b37f738af2a68e29b599c338c.svg",
+    "static/media/OpenPanel.svg": "/static/media/OpenPanel.c5acf6a493e5a82e931e857adcabee68.svg",
+    "index.html": "/index.html",
+    "static/media/SingleLayer.svg": "/static/media/SingleLayer.c75e32088815899cc5c8656dc0d2f8e9.svg",
+    "static/media/Trash.svg": "/static/media/Trash.7b5db19929b92cc06fa2c6ef78cfd27c.svg",
+    "static/media/KnittingNoise.svg": "/static/media/KnittingNoise.1e6ffb96820c49906cbac3caae05030b.svg",
+    "main.4b6b998b.css.map": "/static/css/main.4b6b998b.css.map",
+    "main.38eec408.js.map": "/static/js/main.38eec408.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b6b998b.css",
+    "static/js/main.38eec408.js"
+  ]
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="90"  viewBox="0 0 300 300">
+  <!-- Define knitting pattern -->
+  <defs>
+    <pattern id="knitPattern" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M0,0 L10,10 M10,0 L0,10" stroke="black" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Sphere shape with knitted pattern -->
+  <circle cx="150" cy="150" r="140" fill="url(#knitPattern)" stroke="black" stroke-width="2"/>
+</svg>
