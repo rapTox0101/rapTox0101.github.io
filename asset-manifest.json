@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4b6b998b.css",
-    "main.js": "/static/js/main.1ed6a75f.js",
+    "main.js": "/static/js/main.03ab1656.js",
     "static/media/GaborNoise.svg": "/static/media/GaborNoise.e60ccb0e61a4b838ddb4aa0544d72853.svg",
     "static/media/DotsNoise.svg": "/static/media/DotsNoise.8b90d70c66744b61caf704214d5e7e4c.svg",
     "static/media/LigthBulb.svg": "/static/media/LigthBulb.dea5eacbc2157f654e4761309128ef45.svg",
@@ -10,6 +10,7 @@
     "static/media/BaseColorMod.svg": "/static/media/BaseColorMod.1354ff08a8a5104e7048ee7c6477cdb1.svg",
     "static/media/WhiteNoiseBlocky.svg": "/static/media/WhiteNoiseBlocky.4d7e439fd355ada9770cf4852997e865.svg",
     "static/media/WhiteNoise.svg": "/static/media/WhiteNoise.bc7af30f3a74e94ae43b1023fecc5dd4.svg",
+    "static/media/Camera.svg": "/static/media/Camera.cf4cd5895bc29f83ade7f41322360038.svg",
     "static/media/Upload.svg": "/static/media/Upload.78545f6ee747e5108203cff62c9fd45c.svg",
     "static/media/BricksNoise.svg": "/static/media/BricksNoise.24e1eaff1e0befb50149a5d6fa58187c.svg",
     "static/media/Download.svg": "/static/media/Download.2304876a4b30195e17a48bd581da1384.svg",
@@ -29,10 +30,10 @@
     "static/media/Trash.svg": "/static/media/Trash.7b5db19929b92cc06fa2c6ef78cfd27c.svg",
     "static/media/KnittingNoise.svg": "/static/media/KnittingNoise.1e6ffb96820c49906cbac3caae05030b.svg",
     "main.4b6b998b.css.map": "/static/css/main.4b6b998b.css.map",
-    "main.1ed6a75f.js.map": "/static/js/main.1ed6a75f.js.map"
+    "main.03ab1656.js.map": "/static/js/main.03ab1656.js.map"
   },
   "entrypoints": [
     "static/css/main.4b6b998b.css",
-    "static/js/main.1ed6a75f.js"
+    "static/js/main.03ab1656.js"
   ]
 }
