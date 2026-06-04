@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4b6b998b.css",
-    "main.js": "/static/js/main.38eec408.js",
+    "main.js": "/static/js/main.16d566fc.js",
     "static/media/GaborNoise.svg": "/static/media/GaborNoise.e60ccb0e61a4b838ddb4aa0544d72853.svg",
     "static/media/DotsNoise.svg": "/static/media/DotsNoise.8b90d70c66744b61caf704214d5e7e4c.svg",
     "static/media/LigthBulb.svg": "/static/media/LigthBulb.dea5eacbc2157f654e4761309128ef45.svg",
@@ -14,6 +14,7 @@
     "static/media/BricksNoise.svg": "/static/media/BricksNoise.24e1eaff1e0befb50149a5d6fa58187c.svg",
     "static/media/Download.svg": "/static/media/Download.2304876a4b30195e17a48bd581da1384.svg",
     "static/media/ArrowBack.svg": "/static/media/ArrowBack.5e1abfbf70b648a29d7a260a60305b4b.svg",
+    "static/media/Generate.svg": "/static/media/Generate.78609951152532a4ca26948900d67df4.svg",
     "static/media/CheckerNoise.svg": "/static/media/CheckerNoise.fb29d6ab1f9c0de7306773cee9ae5f16.svg",
     "static/media/GridNoise.svg": "/static/media/GridNoise.205eac975da337185e322c8346610951.svg",
     "static/media/BlendMod.svg": "/static/media/BlendMod.2b0aa20c8d0e2973a0d0d1f11fa1422b.svg",
@@ -28,10 +29,10 @@
     "static/media/Trash.svg": "/static/media/Trash.7b5db19929b92cc06fa2c6ef78cfd27c.svg",
     "static/media/KnittingNoise.svg": "/static/media/KnittingNoise.1e6ffb96820c49906cbac3caae05030b.svg",
     "main.4b6b998b.css.map": "/static/css/main.4b6b998b.css.map",
-    "main.38eec408.js.map": "/static/js/main.38eec408.js.map"
+    "main.16d566fc.js.map": "/static/js/main.16d566fc.js.map"
   },
   "entrypoints": [
     "static/css/main.4b6b998b.css",
-    "static/js/main.38eec408.js"
+    "static/js/main.16d566fc.js"
   ]
 }
