@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.ca047099.css",
-    "main.js": "/static/js/main.f649badd.js",
+    "main.js": "/static/js/main.38713530.js",
     "static/media/GaborNoise.svg": "/static/media/GaborNoise.e60ccb0e61a4b838ddb4aa0544d72853.svg",
     "static/media/DotsNoise.svg": "/static/media/DotsNoise.8b90d70c66744b61caf704214d5e7e4c.svg",
     "static/media/LigthBulb.svg": "/static/media/LigthBulb.dea5eacbc2157f654e4761309128ef45.svg",
     "static/media/Mesh.svg": "/static/media/Mesh.2d21ebe07a6e698854e0b5af67504860.svg",
     "static/media/Settings.svg": "/static/media/Settings.1fadf36bd30f076001b68dcf6157342f.svg",
     "static/media/BaseColorMod.svg": "/static/media/BaseColorMod.1354ff08a8a5104e7048ee7c6477cdb1.svg",
+    "static/media/NotVisible.svg": "/static/media/NotVisible.40ed11aa122f89a6cc3288ee63ab964f.svg",
     "static/media/WhiteNoiseBlocky.svg": "/static/media/WhiteNoiseBlocky.4d7e439fd355ada9770cf4852997e865.svg",
     "static/media/WhiteNoise.svg": "/static/media/WhiteNoise.bc7af30f3a74e94ae43b1023fecc5dd4.svg",
     "static/media/Camera.svg": "/static/media/Camera.cf4cd5895bc29f83ade7f41322360038.svg",
@@ -26,14 +27,15 @@
     "static/media/PerlinNoise4.svg": "/static/media/PerlinNoise4.502b869b37f738af2a68e29b599c338c.svg",
     "static/media/OpenPanel.svg": "/static/media/OpenPanel.c5acf6a493e5a82e931e857adcabee68.svg",
     "index.html": "/index.html",
+    "static/media/Visible.svg": "/static/media/Visible.ae8e0c78598a321811daf9ca0e8d423c.svg",
     "static/media/SingleLayer.svg": "/static/media/SingleLayer.c75e32088815899cc5c8656dc0d2f8e9.svg",
     "static/media/Trash.svg": "/static/media/Trash.7b5db19929b92cc06fa2c6ef78cfd27c.svg",
     "static/media/KnittingNoise.svg": "/static/media/KnittingNoise.1e6ffb96820c49906cbac3caae05030b.svg",
     "main.ca047099.css.map": "/static/css/main.ca047099.css.map",
-    "main.f649badd.js.map": "/static/js/main.f649badd.js.map"
+    "main.38713530.js.map": "/static/js/main.38713530.js.map"
   },
   "entrypoints": [
     "static/css/main.ca047099.css",
-    "static/js/main.f649badd.js"
+    "static/js/main.38713530.js"
   ]
 }
